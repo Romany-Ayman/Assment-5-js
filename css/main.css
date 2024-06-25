@@ -1,0 +1,93 @@
+.myBody{
+    background-color: #1E202B;
+     min-height: 100vh;
+   
+}
+.text-nav{
+    font-size: 10px;
+    
+    
+}
+.collapse a{
+    color: #fff;
+    border-radius: 3.125rem ;
+}
+.collapse a.active{
+   
+    border:#255C81 solid  ;
+    color: #255C81  ; 
+}
+.collapse a:hover{
+   
+    border:#255C81 solid  ;
+    color: #255C81;
+    background-color: #4251a647;
+    overflow: hidden;
+}
+p,a,h2{
+    color: #fff;
+}
+span{
+    color:#646770;
+}
+h6{
+    color: #255C81;
+}
+/* ________________________________________ */
+.contact{
+    width: 100%;
+    min-height: 50vh;
+    background-image:url(../iamges/bg.jpg);
+    background-color: #1e202b74;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;             
+}
+
+.sh-1,.sh-3{
+    background-color:#323544;
+   padding: 40px;
+   text-align: center;
+   
+}
+.sh-2{
+    background-color: #262936;
+    padding: 40px;
+    text-align: center;
+}
+/*       ----------------                                  ---------     */
+.input-group{
+    width:100%;
+   
+} 
+.btn{
+    border-radius: 100px;
+}
+.icone i{
+    font-size: 25px;
+    color:#fff;;
+}
+.icone{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 1s;
+
+    background-color: #000000fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} .icone:hover{
+    background-color: #009AD8;
+    color:#fff;
+} 
+.form-control{
+    color: #fff;
+    border-radius: 100px;
+    background-color: #4251a6;
+}
+
+.footer{
+    background-color:#262936 ;
+    padding: 70px;
+}

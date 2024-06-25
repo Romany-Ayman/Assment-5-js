@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>weather</title>
+  </head>
+  <body class="myBody">
+    <!--------------------nav------------------->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg mt-0 bg-transparent p-4"
+        data-bs-theme="dark"
+      >
+        <div class="container">
+          <div class="prt1 d-flex align-items-center gap-3">
+            <img src="iamges/logo.png" class="w-75" alt="" />
+            <div class="text-nav">
+              <a class="navbar-brand" href="#">Weather</a>
+              <p>tagline goes here</p>
+            </div>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0 gap-4 p-4">
+              <li class="nav-item">
+                <a class="nav-link px-4 active" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" aria-current="page" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" aria-current="page" href="#"
+                  >Live Cameras</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" aria-current="page" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" aria-current="page" href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ----------------------contact --------------------------->
+    <section class="contact">
+      <div class="contact p-4">
+        <div class="container w-75 mx-auto">
+          <div>
+            <div class="input-group mb-3">
+              <input
+                id="inputSearch"
+                type="text"
+                class="form-control"
+                placeholder="Find your location"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-primary p-3"
+                type="button"
+                id="buttonSearch"
+              >
+                find
+              </button>
+            </div>
+            <div class="alert alert-primary d-none" id="myAlert" role="alert">
+              Please Enter the name correctly
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid w-75 mx-auto">
+          <div class="row m-5" id="rowData"></div>
+        </div>
+      </div>
+    </section>
+    <!-- --------footer-------------- -->
+    <footer class="footer">
+      <div class="d-flex justify-content-lg-between w-75 mx-auto mt-4">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control p-2"
+            placeholder="Enter your email to subscride"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn btn-outline-info p-3"
+            type="button"
+            id="button-addon2"
+          >
+            Subscride
+          </button>
+        </div>
+
+        <div class="d-flex justify-content-center ms-2 gap-3">
+          <span class="icone">
+            <i class="fa-brands fa-facebook"></i>
+          </span>
+          <span class="icone">
+            <i class="fa-brands fa-twitter"></i>
+          </span>
+          <span class="icone">
+            <i class="fa-brands fa-google"></i>
+          </span>
+          <span class="icone">
+            <i class="fa-solid fa-globe"></i>
+          </span>
+        </div>
+      </div>
+      <div class="w-75 text-center p-3">
+        <p>
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
